@@ -1,0 +1,21 @@
+.pokedex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokedex-header img {
+    max-height: 50px;
+    display: block;
+  }
+  
+  .pokedex-subtitulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
