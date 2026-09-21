@@ -6,7 +6,7 @@
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin: 1rem; /* Margem opcional para espaçamento */
+  margin: 1rem;
 }
 
 .pokemon-card:hover {
@@ -56,11 +56,35 @@
   font-size: 0.85rem;
   font-weight: bold;
   padding: 0.3rem 1rem;
-  border-radius: 20px; /* Formato de pílula */
+  border-radius: 20px;
   text-transform: uppercase;
 }
 
-.type-fire {
-  background-color: #ff421d;
-  color: #ffffff;
+.type-fogo { 
+  background-color: #ff421d; 
+  color: #ffffff; 
 }
+
+.type-agua { 
+  background-color: #268bf7; 
+  color: #ffffff; 
+}
+
+.type-planta { 
+  background-color: #57b952; 
+  color: #ffffff; 
+}
+
+.type-eletrico { 
+  background-color: #fbc02d; 
+  color: #333333; 
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  list-style: none;
+}
+

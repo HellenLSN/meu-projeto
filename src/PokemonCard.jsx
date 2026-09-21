@@ -1,24 +1,23 @@
-import React from 'react';
+// src/PokemonCard.jsx
 import './PokemonCard.css';
 
-export function PokemonCard() {
+export function PokemonCard({ pokemon }) {
+
+  const { id, name, type, image } = pokemon;
+
   return (
-    <article className="pokemon-card">
-      <header className="card-header">
-        <span className="pokemon-id">#004</span>
-        <h2 className="pokemon-name">Charmander</h2>
-      </header>
+    <div className="pokemon-card">
+      <span className="pokemon-id">{id}</span>
+      <h2 className="pokemon-name">{name}</h2>
       
-      <figure className="pokemon-image-container">
-        <img 
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" 
-          alt="Ilustração do Charmander" 
-        />
-      </figure>
+      <img src={image} alt={`Ilustração do ${name}`} />
       
-      <ul className="pokemon-types">
-        <li className="type-badge type-fire">Fogo</li>
+      <ul>
+
+        <li className={`type-badge type-${type.toLowerCase()}`}>
+          {type}
+        </li>
       </ul>
-    </article>
+    </div>
   );
 }
