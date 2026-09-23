@@ -31,7 +31,7 @@ function App() {
     id: "#0025",
     name: "Pikachu",
     type: "Eletrico",
-    image:"https://www.pokemon.com/br/pokedex/pikachu"
+    image: "https://www.pokemon.com/br/pokedex/pikachu"
   };
 
   return (
