@@ -79,3 +79,12 @@
   background-color: #fbc02d; 
   color: #333333; 
 }
+
+.type-fada { background-color: rgb(240, 176, 224);
+  color: #ffffff;
+}
+
+.type-fantasma {
+ background-color: #9651ce; 
+  color: #ffffff;
+}
